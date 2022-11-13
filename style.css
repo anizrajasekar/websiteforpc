@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: inline-flex;
+    position: sticky;
+    top: 0;
+    background-color: sandybrown;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+header img{
+    width: 90px;
+    height: 70px;
+    margin-left: 20px;
+}
+.main{
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+}
+.main li{
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.main li a{
+    text-decoration: none;
+    padding:  30px;
+    color: black;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    border-radius: 200px;
+    border: none;
+    margin-right: 20px;
+    color: white;
+    background-color: darkcyan;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.main li:hover{
+    background-color: aqua;
+}
+
+button:hover{
+    transition: 5s;
+    background-color: black;
+}
+
+.Home img{
+    width: 100%;
+}
+
+#Home{
+    align-items: center;
+}
+
+.About{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.About img{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.About p{
+     margin-top: 20px;
+     padding:0 100px  ;
+     font-style: initial;
+     justify-content: space-between;
+}
+#Product{
+    margin-top: 20px;
+    text-align: center;
+}
+.list{
+    margin-top: 20px;
+    margin-left: 110px;
+    color: brown;
+}
+
+.con1{
+    margin-top: 20px;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+.list2{
+    margin-top: 20px;
+    margin-left: 110px;
+    color: brown;
+}
+
+.con2{
+    margin-top: 20px;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+.list3{
+     margin-top: 20px;
+     margin-left: 110px;
+     color: brown;
+}
+
+.con3{
+    margin-top: 20px;
+    padding: 0 100px ;
+    justify-content: space-between;
+}
+
+.Contact{
+    text-align: center;
+    margin-top: 20px;
+    height: 550px;
+}
+
+footer{
+    width: 100%;
+    display: block;
+    background-color: sandybrown;
+    text-align: center;
+    height: 90px;
+    cursor: pointer;
+}
+
+footer p{
+   position: relative;
+    padding: 4px;
+}
+   
+
+   
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
